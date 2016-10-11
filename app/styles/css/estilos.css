@@ -1,0 +1,776 @@
+html, body {
+/*    position: absolute;*/
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+    z-index: -100;
+  /* chrome */
+   background: -webkit-linear-gradient(bottom, #fafada 0%, transparent 70%), -webkit-linear-gradient(top, #dbedf4 10%, transparent 80%), -webkit-linear-gradient(right, #5eaecb 10%, transparent 80%), -webkit-linear-gradient(left, #eda155 10%, transparent 70%);
+    
+ background: -moz-linear-gradient(bottom, #fafada 0%, transparent 70%), -moz-linear-gradient(top, #dbedf4 10%, transparent 80%), -moz-linear-gradient(right, #5eaecb 10%, transparent 80%), -moz-linear-gradient(left, #eda155 10%, transparent 70%);
+    
+    background:  -moz-linear-gradient(45deg, #fafada 0%, rgba(225, 5, 34, 0) 70%),  -moz-linear-gradient(135deg, #dbedf4 10%, rgba(49, 5, 209, 0) 80%),  -moz-linear-gradient(225deg, #5eaecb 10%, rgba(10, 219, 216, 0) 80%),  -moz-linear-gradient(315deg, #eda155 100%box-sizing: inherit, rgba(9, 245, 5, 0) 70%);
+    
+  background:  linear-background(45deg, #fafada 0%, rgba(225, 5, 34, 0) 70%),  linear-background(135deg, #dbedf4 10%, rgba(49, 5, 209, 0) 80%),  linear-background(225deg, #5eaecb 10%, rgba(10, 219, 216, 0) 80%),  linear-background(315deg, #eda155 100%box-sizing: inherit, rgba(9, 245, 5, 0) 70%);
+      
+/*
+ background-image: url(imgcss/arbol3.png);
+    background-size: 6% 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+*/
+/*    background: -webkit-linear-gradient(45deg, #fafada 0%, rgba(225, 5, 34, 0) 70%), -webkit-linear-gradient(315deg, #dbedf4 10%, rgba(49, 5, 209, 0) 80%), -webkit-linear-gradient(225deg, #5eaecb 10%, rgba(10, 219, 216, 0) 80%), -webkit-linear-gradient(135deg, #eda155 10%, rgba(9, 245, 5, 0) 70%);*/    
+  
+/*
+/ Safari 4-5, Chrome 1-9 /
+    background: -webkit-gradient(linear, 100% 0%, 0% 100%, from(wrgba(9, 245, 5, 0)hite), to(black));
+    / Safari 5.1+, Chrome 10+ /
+    background: -webkit-linear-gradient(top, black, white);
+    / Firefox 3.6+ /
+    background: -moz-linear-gradient(top, black, white);
+    / Opera 11.10+ /
+    background: -o-linear-background(top, black, white);
+    / IE 10 /
+    background: -ms-linear-background(top, black, white);
+    / estándar */
+/*    background: linear-background(top, black, white);    */    
+
+}
+
+
+
+.img-alta {
+    position: absolute;
+    z-index: -100;
+    height: 100%;
+/*    height:auto;*/
+   /* max-width: 300px;*/
+    width: 38%;
+   /* padding-top: 0px;*/
+/*    max-width: 400px;*/
+    min-width: 180px;
+}
+
+.cabecera {
+    padding-right: 0px;
+}
+
+.fondo-nube {
+/*     width: 100%;*/
+/*    height: 100%;*/
+/*    margin: 0px 0px 0px 0px;*/
+/*    padding: 0px 0px 0px 0px;*/
+/*    float: right;*/
+    background-image: url(imgcss/nubejum3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/* ==================  CABECERA ======================================== */
+.delante {
+    z-index: 100;
+}
+
+.logo {  
+/*    position: absolute;*/
+    z-index: 100;
+    float: left;
+   width: 100%;
+    min-width: 120px;
+ margin: 5px 10px 0px -10px;
+    max-width: 180px;
+}
+.navbar-cabecera {
+/*    float:right;    */
+}
+.container-fluid>.boton-menu-oculto {
+/*
+    float: right;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+*/
+/*
+    position:relative;
+   margin-right: 10%;
+    max-width: 50px;
+*/
+}
+
+.toggle-distinto {
+/*    margin-right: 0px;*/
+/*    margin-top: 0px;*/
+/*    padding-left: 40px; */
+   position:relative;
+  float: right;
+/*  width: 20%;  */
+/*    height: 100%;*/
+  padding: 10px 0px 0px 0px;
+/*  margin-top: 14px;*/
+  margin-right: 2%;
+/*  margin-bottom: 8px;*/
+/*    background-color: aliceblue;*/
+/*  background-color:cornsilk;*/
+/*  background-image:url(imgcss/ramas3.png);*/
+/*   transform: rotate(-90deg);*/
+/*    background-size: 100% 100%;*/
+/*    background-image:url(nubeg.png);*/
+/*  border: 3px solid #144518;*/
+/*  border-radius: 50%;  */
+
+  
+}
+
+.navbar-toggle .icon-bar-distinto {
+/*    position: absolute;*/
+      opacity: 1;
+    background-color: #144518;
+     border: 2px solid #144518;
+     border-radius: 2;
+/*    transform: rotate(-90deg);*/
+}
+
+/*
+.navbar-toggle .icon-bar-distinto{
+    
+}
+*/
+.navegacion {   
+    background-image: url(imgcss/ramas3.png);
+    background-size: 100% 100%;
+ padding-right: 20px;
+    padding-bottom: 5%;
+    margin-top:-70px;
+/*    height:100%;    */
+   margin-right: 6%;
+    width: 85%;
+    float: right;
+    z-index: -170;
+/*    height: 150px;*/
+   
+}
+
+
+
+.nav-ramas {
+/*margin-top: 100px;*/
+/*    position: absolute;*/
+   /* z-index: -170;*/
+
+/*    right: 0px;*/
+     width: 100%;
+/*    height: 100%;*/
+/*    top: -10px; */
+/*      margin: 0px 0px;*/
+    padding-top:10%;
+    padding-bottom:5%;
+/*
+    background-image: url(imgcss/ramas3.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: right;
+*/
+
+}
+
+.img-fondo-barra {
+    width: 100%;
+/*    margin-left: 170;*/
+/*    max-height: 150px;*/
+    height: 150px;
+}
+
+/* --------BUSCADOR--------*/
+.buscador {
+    
+}
+
+
+.navbar-buscador {
+    position: relative;
+/*
+    background-image: url(imgcss/nubejum2.png);
+    background-size: 100% 100%;
+*/
+/*    background-position: center;*/
+/*    min-width: 200px;*/
+/*    width: 100%;*/
+  min-height: 75px;
+padding: 20px 30px 0px 30px;
+  margin: 0px 0px 80px 0px;
+/*  margin-right: -20px;*/
+/*  margin-bottom: 0px;*/
+/*   right: 0px;*/
+    float: left;
+-webkit-box-shadow:none;
+    border:none;
+ 
+}
+
+.form-buscador {
+/*    width: 100%;*/
+/*    float:right;*/
+/*        margin-right: 5%;*/
+}
+
+.control-buscador {
+    
+  display:block;
+  width: 80%;
+  height: 34px;
+/*  padding: 6px 15px;*/
+  font-size: 15px;
+  line-height: 1.42857143;
+  color: #521313;
+/*  background-color: rgb(228, 245, 245);*/
+    background-color: transparent;
+  border: 2px solid #521313;
+/*
+  border-radius: 0px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    margin-right: -5px;
+*/
+}
+.btn-buscador {
+    float: right;          
+    color: #fff;
+  background-color: #521313;
+  border-color: #521313;
+}
+
+.fondo-barra {
+    background-image: url(imgcss/ramas2.png);
+    background-size: 100%;
+}
+
+.contenedor-contenido {
+    width: 75%;
+    max-height: 1800px;
+}
+
+/* __________ REDIMENSIONES ________________*/
+@media screen and (max-width: 768px) {
+    width:100%;
+    margin-bottom: 20px;
+    margin-right: 0;
+}
+
+@media (max-width: 768px){
+    .nav-ramas {
+        margin-top:120px;
+    }
+    
+    .cabecera {
+/*
+        padding: 0px 0px 0px 0px;
+         margin: 0px 0px 0px 0px;
+*/
+/*
+        -webkit-transform: scale(0.8);
+      -ms-transform: scale(0.8);
+          transform: scale(0.8);
+*/
+    }
+    
+    .navegacion {
+        padding: 0px 0px 50px 0px;
+/*        background-size: 100% 100%;*/
+        width: 100%;
+        height: 100%;
+/*        margin-top: 0px;*/
+    }
+/*
+    .boton2 {
+        padding-top:180px;
+    }
+    
+*/
+    
+    .btn-buscador{
+        float: right;
+/*        position: absolute;*/
+/*        margin-bottom: 50px;*/
+
+    }
+    .form-buscador{
+/*        width: 100%;*/
+        float: right;
+/*        margin-right: 7%;*/
+/*        height: 100%;*/
+        
+    } 
+    .jumbotron-distinto .titulo {
+    font-size: 25px;
+    color:#550a16;
+        vertical-align: middle;
+        
+}
+    
+   .jumbotron-distinto .descrip {
+         color:#550a16;
+        vertical-align: middle; 
+       font-size: 20px;
+       text-align: center;
+       
+    }
+    
+    .descripcion {
+    font-size: 18px;
+    color:#550a16;
+        vertical-align: middle;
+        } 
+    
+    .menu-derecho {
+  width: 100%;      
+        float: right;
+        -webkit-transform: scale(0.8);
+      -ms-transform: scale(0.8);
+          transform: scale(0.8);
+        
+    }
+    .navbar-buscador {
+   
+  margin: 0px 0px 0px 0px;
+ 
+}
+}
+
+@media (max-width: 992px) {
+    .navegacion  {
+        width: 95%;
+        margin-top:-90px;
+    }
+}
+@media (min-width: 1200px) {
+ .navegacion  {
+        width: 95%;
+        margin-top:-90px;
+    }
+  }
+
+/* FIN REDIMENSIONES ________________*/
+
+
+
+
+/* FIN CABECERA ==================================*/
+
+
+/* ================  CONTENIDO GENERAL ==================================*/
+.main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.fondo-contenido {
+    position: absolute;
+}
+
+.jumbotron-distinto {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    float: left;
+    background-image: url(imgcss/nubejum3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.jumbotron-distinto {
+/*    font-size: 10px;*/
+}
+
+.jumbotron-distinto .titulo {
+    text-align: center;
+    color:#4d1212;
+    font-size: 30px;
+    padding-top: 10px;  
+}
+
+.jumbotron-distinto .descrip {
+    text-align: center;
+    color:#4d1212;
+    font-size: 20px;
+    margin-top: 20px; 
+}
+
+.migas {
+    background-image: url(imgcss/nubemig2.png);
+    background-size: 100% 100%;
+}
+
+.breadcrumb > li.migas + li:before {
+  content: none;
+}
+
+.texto-migas {
+    margin: 10px 20px 5px 20px;
+    font-size: 15px;
+    color: darkblue;
+}
+
+.migas-activa {
+    margin: 15px 35px 10px 35px;
+    font-size: 18px;
+    color:#550a16;
+}
+
+.post-inicial {
+    border-bottom: transparent;
+}
+
+.grupo-videos {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.videos{
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 10px;
+  
+}
+
+
+
+
+
+.navegacion-vertical {
+    float: left;
+    margin-left: 0px;
+}
+
+
+.grupo-botones-verticales{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+
+.btn-arbol {
+    font-size: 40px;
+   color: #d19f80;
+    text-shadow:
+        4px 1px 0px #460c0c,
+        6px 2px 3px #414141;
+     background-color: transparent;
+  border-color: transparent;
+    padding: 30px 0px;  
+}
+
+.btn-arbol:active,
+.btn-arbol.active,
+.open > .dropdown-toggle.btn-arbol {
+  background-image: none;
+}
+.btn-arbol:hover {
+  color: #333;
+  background-color:transparent;
+  border-color: transparent;
+}
+
+.btn-arbol.disabled:hover,
+.btn-arbol[disabled]:hover,
+fieldset[disabled] .btn-arbol:hover,
+.btn-arbol.disabled:focus,
+.btn-arbol[disabled]:focus,
+fieldset[disabled] .btn-arbol:focus,
+.btn-arbol.disabled.focus,
+.btn-arbol[disabled].focus,
+fieldset[disabled] .btn-arbol.focus {
+  background-color: transparent;
+  border-color: #ccc;
+}
+
+.arbol_textop {
+    font-size: 20px;
+    width: 100%;
+    
+}
+
+.linea-tiempo {
+    max-width: 50%;
+}
+
+
+.fb-page {
+    width: 20%;
+    background-color: transparent;
+    margin-left: 20px;
+}
+
+.adaptable {
+    
+    margin-left: 10%;
+}
+
+.breadcrumb-distinta {
+    padding: 13px 5px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: transparent;
+    border-radius: 4px;
+    display:inline-table;
+}
+
+.contenido-fluid {
+     width: 98%;
+/*    float: left;*/
+/*
+    background-image: url(imgcss/arbol3.png);
+    background-size: 6% 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    bottom:0px;
+    margin-right: auto;
+    padding-bottom: 90px;
+    z-index: -50;
+*/
+    /*    padding-top: -150px;*/
+}
+
+
+
+.contenedor-migas {
+    padding: 0;
+}
+
+.nube-migas {
+    position: absolute;
+    width: 150px;
+    height: 50px; 
+    z-index: -100;
+    opacity: 0.7;
+    
+}
+.fondo-navbar {
+    max-height: 174px;
+    width: 100%;
+    z-index: -50;
+    position: absolute;
+}
+
+.fondo-nube {
+    position: absolute;
+    z-index: -50;
+    width: 60%;
+    opacity: 0.73;
+    top:0px;   
+}
+
+.fondo-menu-izq {
+    position: absolute;
+    z-index: -200;
+    margin-top: 0px;
+    width: 38%;
+    height: 100%;
+    max-width: 345px;
+    min-width: 180px;
+}
+
+.breadcrumb-distinto {
+    padding: 8px 15px;
+  margin-bottom: 5px;
+  list-style: none;
+  background-color: transparent;
+  border-radius: 4px;
+}
+
+.posts {
+/*    float: right;  */
+}
+
+.post {
+    padding-bottom: 20px;
+}
+
+.post .post-title a {
+    color:#333;
+}
+
+.post .thumb {
+    margin-right: 10px;
+    width: 40%;
+}
+
+.post .thumb img {
+    width: 100%;
+}
+
+.post .contenedor-botones {
+    width:100%;
+    padding-bottom: 5px;
+    height: auto;
+}
+
+
+
+.post .thumb-distinta {
+    max-width: 80px;  
+}
+
+.img-thumbnail-distinta {
+    background-color: transparent;
+    padding: 0px;
+}
+
+.btn-normal {
+    background-color: #6d3f22;
+    border-color: #332108;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.btn-suceso {
+    background-color: #0b410d;
+    border-color: #0c2c03;
+    border-radius: 50%;
+    margin-bottom: 5px;
+   
+}
+
+.btn-suceso .badge {
+    color: #0c2c03;
+}
+
+.container-lateral {
+    height: auto;
+}
+
+
+/* FIN CONTENIDO GENERAL ==================================*/
+
+/* =================== PIE ================================*/
+.texto-pie {
+    color:brown;
+}
+
+
+
+.contenedor-pie {
+    position:relative;
+    width: 100%;
+    height: 100%;
+/*    bottom: 0px;*/
+  background-image: url(imgcss/hierba.png);
+    background-size: 100% 100%;
+/*    margin-top: -60px;*/
+   
+    
+}
+.pie {
+
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-bottom: 10px;
+/*    padding-top: 80px;*/
+    padding-top: 5%;
+/*    padding: 0px 0px 0px 0px;*/
+       
+}
+
+.imagen-pie {
+    height: 120px;
+    position: absolute;
+    z-index: -100;
+    width: 100%;
+
+}
+
+.contenido-pied {
+    margin-top: 30px;
+}
+
+
+.contenido-piei {
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+footer {
+    
+}
+
+.fa-stack {
+  color:brown;  
+}
+
+.btn-pie {
+ background-color: brown;
+}
+.btn-red-pie {
+    background-color: brown;
+    border-radius: 60%;  
+    width: 100%
+}
+
+/* FIN PIE ================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.descripcion {
+    
+}
+
+.menu-derecho {
+/*    float:right;*/
+    margin-right: 5px;
+}
+
+.arbol {
+     background-image: url(imgcss/arbol3.png);
+    background-size: 10% 93%;
+    background-repeat: no-repeat;
+    background-position: right;
+/*    max-width: 150px;*/
+/*    padding-top: -150px;*/
+    bottom:0px;
+    margin-right: auto;
+/*    padding-bottom: 90px;*/
+    z-index: -50;
+}
+
+.rama {
+     background-image: url(imgcss/ramas2.png);
+    background-size: 10% 93%;
+    background-repeat: no-repeat;
+    background-position: right;
+/*    max-width: 150px;*/
+/*    padding-top: -150px;*/
+    bottom:0px;
+    margin-right: auto;
+/*    padding-bottom: 90px;*/
+    z-index: -50;
+    
+}
+
+.desplegable {
+    margin-right: 10px;
+}
+
+

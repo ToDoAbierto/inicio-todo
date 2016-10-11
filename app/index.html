@@ -1,0 +1,350 @@
+<!doctype html>
+<html class="no-js" lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>ToDo-Abierto</title>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+      <!-- build:css styles/css-personalizados -->
+      	<link rel="stylesheet" href="styles/css/estilos.css">
+        <link rel="stylesheet" href="styles/css/animaciones.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- endbuild -->
+
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <script src="/bower_components/personales/animaciones.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="arbol">
+<!-- CABECERA CON MENÚ HORIZONTAL OCULTABLE          -->
+	<header>
+        <nav class="navbar  navbar-static-top" role="navigation">
+            <div class="container-fluid cabecera">
+              <div class="container-fluid ">
+<!-- Logo -->
+			    <div class="delante col-xs-5 col-sm-4 col-md-3 col-lg-3">
+                   <a href="http://todoabierto.github.io/Inicio/" class="BSTooltip ">
+                   <img src="images/logotodoabierto.png" class="logo" data-toggle="tooltip" data-placement="bottom" title="Ir a la página de inicio" animation="true"></a>
+            </div>
+
+<!-- Jumbotron -->
+<div class="col-xs-7 col-sm-8 col-md-5 col-lg-5">
+	<section class="jumbotron jumbotron-distinto">
+			<h1 class="titulo">ToDo JavaScript</h1>
+	</section>
+	</div>
+    <div class="container-fluid">
+
+<!-- Botón del menú ocultable -->
+    <div class="navbar-header boton-menu-oculto" data-toggle="tooltip" data-placement="bottom" title="+ Opciones" animation="true">
+					    <button type="button" class="navbar-toggle toggle-distinto collapsed" data-toggle="collapse" data-target="#navegacion-fm" >
+
+						    <span class="sr-only">Desplegar / Ocultar Menu</span>
+
+						    <!--NUEVO BOTON OCULTABLE-->
+<div id="hamburger" class="hamburglar is-closed">
+
+    <div class="burger-icon">
+      <div class="burger-container">
+        <span class="burger-bun-top"></span>
+        <span class="burger-filling"></span>
+        <span class="burger-bun-bot"></span>
+      </div>
+    </div>
+    <!-- svg ring containter -->
+    <div class="burger-ring">
+      <svg class="svg-ring">
+	      <path class="path fondo-boton" fill="none" stroke="#811616" stroke-miterlimit="10" stroke-width="4" d="M 34 2 C 16.3 2 2 16.3 2 34 s 14.3 32 32 32 s 32 -14.3 32 -32 S 51.7 2 34 2" />
+      </svg>
+    </div>
+    <!-- La ruta que marca la animación del dibujo -->
+    <svg width="0" height="0">
+       <mask>
+    <path xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#ff0000" stroke-miterlimit="10" stroke-width="4" d="M 34 2 c 11.6 0 21.8 6.2 27.4 15.5 c 2.9 4.8 5 16.5 -9.4 16.5 h -4" />
+       </mask>
+     </svg>
+    <div class="path-burger">
+      <div class="animate-path">
+        <div class="path-rotation"></div>
+      </div>
+    </div>
+  </div>
+<!--fin del nuevo boton ocultable-->
+					    </button>
+				    </div>
+<!-- Fin del Botón del menú ocultable -->
+
+<!-- Menu horizontal ocultable -->
+    <div class="collapse navbar-collapse navegacion" id="navegacion-fm">                 <div class="nav navbar-nav nav-ramas">
+<!--  BOTÓN CIRCULAR ANIMADO                             -->
+     <div class="menu"   id="boton1">
+        <div class="btn trigger1" data-toggle="tooltip" data-placement="bottom" title="+ Opciones" animation="true">
+
+            <img src="styles/css/imgcss/nubejum.png" class="boton-manzana">
+                <p class="texto-manzana">ToDo</p>
+         </div>
+<!--  Submenú Circular animado                          -->
+        <div class="icons">
+
+            <div class="rotater hidden">
+                <div class="btn btn-icon">
+                    <i class="fa">NPM2</i>
+                </div>
+            </div>
+            <div class="rotater hidden">
+                <div class="btn btn-icon">
+                    <i class="fa fa-facebook">.</i>
+                </div>
+            </div>
+            <div class="rotater">
+            <div class="btn btn-icon" onclick="window.open('https://todo-abierto.blogspot.com.es/2016/07/nodejs.html','_blank');">
+                    <i class="fa">Node.js</i>
+                </div>
+            </div>
+            <div class="rotater">
+                <div class="btn btn-icon" onclick="window.open('https://todo-abierto.blogspot.com.es/2016/07/npm.html','_blank');">
+                    <i class="fa ">NPM</i>
+                </div>
+            </div>
+
+            <div class="rotater">
+                <div class="btn btn-icon"onclick="window.open('https://todo-abierto.blogspot.com.es/2016/07/express.html','_blank');">
+                    <i class="fa">Express</i>
+                </div>
+            </div>
+            <div class="rotater">
+                <div class="btn btn-icon"onclick="window.open('https://todo-abierto.blogspot.com.es/2016/07/yeoman.html','_blank');">
+                    <i class="fa">Yeoman</i>
+                </div>
+            </div>
+                <div class="rotater">
+                    <div class="btn btn-icon" onclick="window.open('https://todo-abierto.blogspot.com.es/2016/07/mean.html','_blank');">
+                        <i class="fa">MEAN</i>
+                    </div>
+                </div>
+                <div class="rotater hidden">
+                    <div class="btn btn-icon">
+                        <i class="fa fa-linkedin">.</i>
+                    </div>
+                </div>
+            </div>
+<!-- Fin del submenú circular-->
+        </div>
+<!-- FIN BOTÓN CIRCULAR ANIMADO-->
+
+<!-- 2º BOTÓN CIRCULAR ANIMADO                             -->
+        <div class="menu" id="boton2">
+            <div class="btn trigger2" data-toggle="tooltip" data-placement="bottom" title="+ Opciones" animation="true">
+                <img src="styles/css/imgcss/nubejum.png" class="boton-manzana">
+                <p class="texto-manzana">Varios</p>
+            </div>
+<!--  Submenú Circular animado                          -->
+            <div class="icons">
+                <div class="rotater hidden" >
+                  <div class="btn btn-icon">
+                    <i class="fa">Varios</i>
+                  </div>
+                </div>
+                <div class="rotater hidden">
+                  <div class="btn btn-icon">
+                    <i class="fa fa-facebook">.</i>
+                  </div>
+                </div>
+                <div class="rotater hidden">
+                  <div class="btn btn-icon">
+                    <i class="fa fa-google-plus">.</i>
+                  </div>
+                </div>
+                <div class="rotater">
+                <div class="btn btn-icon" onclick="window.open('http://mjosealbiach.github.io/TodoBootstrap/','_blank');">
+                    <i class="fa">Todo-Bootstrap</i>
+                </div>
+                </div>
+                 <div class="rotater hidden">
+                  <div class="btn btn-icon">
+                    <i class="fa">.</i>
+                  </div>
+                </div>
+                <div class="rotater hidden">
+                       <div class="btn btn-icon">
+                    <i class="fa">.</i>
+                  </div>
+                </div>
+                <div class="rotater hidden">
+                  <div class="btn btn-icon">
+                    <i class="fa">.</i>
+                  </div>
+                </div>
+                <div class="rotater hidden">
+                  <div class="btn btn-icon">
+                    <i class="fa fa-linkedin">.</i>
+                  </div>
+                </div>
+              </div>
+<!--                              Fin del submenú circular-->
+            </div>
+<!--                           FIN BOTÓN CIRCULAR ANIMADO-->
+          </div>
+         </div>
+<!-- Fin del menú horizontal ocultable-->
+       </div>
+     </div>
+    </div>
+<!--    fin cabecera 	-->
+  </nav>
+</header>
+<!-- Fin de la cabecera con menú ocultable -->
+<!--   CONTENIDO          -->
+
+   	<section class="main container-fluid contenido-fluid">
+       <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="http://todo-abierto.blogspot.com.es/?rel=0" allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+
+   	<!--<section class="main container-fluid contenido-fluid contenedor-contenido">-->
+   	<!-- <div>
+           <script src="http://feeds.feedburner.com/TodoAbierto?format=sigpro" type="text/javascript" ></script>
+         </div>	-->
+   <!--   Esta opción no permite salirse de la web          -->
+       <!-- <embed src="http://todo-abierto.blogspot.com.es/" width="98%" height="800px">  -->
+     <!--   </section>-->
+<!-- FIN DEL CONTENEDOR GENERAL-->
+
+<!--PIE	-->
+	<footer>
+		<div class="contenedor-pie">
+			<div class="row pie">
+				<div class="col-xs-4 contenido-piei">
+					<a class="btn  btn-success btn-pie" href="#"  data-toggle="tooltip" data-placement="top" title="+ Librerías" animation="true">
+  <i class="fa fa-briefcase fa-2x pull-left"></i></a>
+				</div>
+				<div class="col-xs-8 contenido-pied">
+                    <section class="model-2">
+                      <div class="float-btn-group">
+                        <button class="btn-float btn-triger btn-success btn-red-pie" data-toggle="tooltip" data-placement="bottom" title="+ Opciones GitHub" animation="true">
+                           <span class="fa-stack fa-lg">
+                              <i class="icon-bars fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </button>
+                              <div class="btn-list">
+                                  <a href="#" class="btn-float yellow">
+                                      <i class="fa fa-search"></i>
+                                  </a>
+                                  <a href="#" class="btn-float blue">
+                                      <i class="fa fa-cloud-download"> </i>
+                                  </a>
+                                  <a href="#" class="btn-float green">
+                                      <i class="fa fa-paperclip"></i>
+                                  </a><a href="#" class="btn-float purple">
+                                      <i class="fa fa-line-chart"></i>
+                                  </a>
+                              </div>
+                      </div>
+                    </section>
+
+                    <section class="model-2">
+                      <div class="float-btn-group">
+                        <button class="btn-float btn-triger btn-success btn-red-pie" data-toggle="tooltip" data-placement="bottom" title="+ Opciones Vimeo" animation="true">
+                           <span class="fa-stack fa-lg">
+                              <i class="icon-bars fa fa-vimeo fa-stack-1x fa-inverse"></i>
+                           </span>
+                        </button>
+                        <div class="btn-list">
+                          <a href="#" class="btn-float yellow">
+                              <i class="fa fa-search"></i>
+                          </a>
+                          <a href="#" class="btn-float blue">
+                              <i class="fa fa-cloud-download"> </i>
+                          </a>
+                          <a href="#" class="btn-float green">
+                              <i class="fa fa-paperclip"></i>
+                          </a><a href="#" class="btn-float purple">
+                              <i class="fa fa-line-chart"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </section>
+
+                    <section class="model-2">
+                      <div class="float-btn-group">
+                        <button class="btn-float btn-triger btn-success btn-red-pie" data-toggle="tooltip" data-placement="bottom" title="+ Opciones Google" animation="true">
+                           <span class="fa-stack fa-lg">
+                              <i class="icon-bars fa fa-google fa-stack-1x fa-inverse"></i>
+                           </span>
+                        </button>
+                        <div class="btn-list">
+                              <a href="#" class="btn-float yellow">
+                                  <i class="fa fa-search"></i>
+                              </a>
+                              <a href="#" class="btn-float blue">
+                                  <i class="fa fa-cloud-download"> </i>
+                              </a>
+                              <a href="#" class="btn-float green">
+                                  <i class="fa fa-paperclip"></i>
+                              </a><a href="#" class="btn-float purple">
+                                  <i class="fa fa-line-chart"></i>
+                              </a>
+                        </div>
+                      </div>
+                    </section>
+				</div>
+			</div>
+		</div>
+	</footer>
+ </div>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js scripts/plugins.js -->
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <script src="scripts/animaciones.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
